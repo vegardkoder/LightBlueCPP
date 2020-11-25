@@ -3,7 +3,10 @@
 
 int main()
 {
+  int X_train[] = {3, 4, 5};
+  int y_train[] = {3, 4, 5};
+
   Sigmoid sigmoid;
   sigmoid = Sigmoid();
-  sigmoid.train();
+  sigmoid.train(X_train, y_train, 3);
 }

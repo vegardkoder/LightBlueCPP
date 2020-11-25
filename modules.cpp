@@ -1,8 +1,11 @@
 class Sigmoid
 {
 public:
-  void train()
+  void train(int X[], int y[], int iterations)
   {
-    std::cout << "Training complete. \n";
+    for(int i=0; i < iterations; i++)
+    {
+      std::cout << X[i] << y[i] << "\n";
+    }
   }
 };
